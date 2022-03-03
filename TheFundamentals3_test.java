@@ -1,5 +1,4 @@
 /**@author: Pele Honua Mea
- * @based_on: 
  * @date: 2022-03-03
  * @brief: The following test tests the implementation of a generic iterable FIFO-queue based on a double linked circular list of
  * TheFundamentals3. It checks for the enqueue method, as well the dequeue method. Also it tests if the queue has been emptied.
