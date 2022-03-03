@@ -1,5 +1,5 @@
 /**@author: Pele Honua Mea
- * @based_on: 
+ * @based_on: https://algs4.cs.princeton.edu/13stacks/DoublyLinkedList.java & https://algs4.cs.princeton.edu/13stacks/Queue.java
  * @date: 2022-03-03
  * @brief: The following program is an implementation of a generic iterable FIFO-queue based on a double linked circular list. Doubly linked
  * list which means that two consecutive nodes and linked by previous and next pointer. A circular list means that the last node points to
