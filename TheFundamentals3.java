@@ -74,7 +74,6 @@ public class TheFundamentals3<Item> implements Iterable<Item> {
 	}
 	private class ListIterator implements Iterator<Item>{
 		private Node current = before.next;
-		private Node last;
 		private int id = 0;
 		
 		public boolean hasNext() {
@@ -84,7 +83,6 @@ public class TheFundamentals3<Item> implements Iterable<Item> {
 		public Item next() {
 			if(!hasNext())
 				throw new NoSuchElementException();
-			last = current;
 			Item item = current.item;
 			current = current.next;
 			id++;
